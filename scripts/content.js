@@ -10,7 +10,6 @@ if (article) {
   const readingTime = Math.round(wordCount / 200);
   const badge = document.createElement("p");
   // Use the same styling as the publish information in an article's header
-  badge.classList.add("color-secondary-text", "type--caption");
   badge.textContent = `⏱️ ${readingTime} min read (eli extendo)`;
 
   // Support for API reference docs
